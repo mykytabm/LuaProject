@@ -1,6 +1,6 @@
 # LuaProject
 C++ Lua framework
-Allows to create branching dialogues and program all logic using Lua script.
+Allows to create branching dialogues and program all logic using **Lua script**.
 
 *   Possible to create and add sprites to game objects from Lua file.
 *   Possible to add colliders and check collision between objects in lua.
@@ -39,5 +39,18 @@ dialogueTree =
 			  }
 		}
 }
+```
+## working with GameObjects and collisions from lua
+```lua
+GameObjects[1]=Game.CreateGameObject("Player","Player","../assets/spriteSheet.png",0,100)
+Game.SetCollisionBox(GameObjects[1],32,64)
+
+ if Game.Collide(GameObjects[1],GameObjects[2]) then
+		
+		if dialogStarted==false then
+			
+			Game.ShowDialogue(true)
+			Game.SetDialogueText("Press 'F' to talk")
+		end
 ```
 
