@@ -40,7 +40,7 @@ dialogueTree =
 		}
 }
 ```
-## working with GameObjects and collisions from lua
+## Working with GameObjects from lua
 ```lua
 GameObjects[1]=Game.CreateGameObject("Player","Player","../assets/spriteSheet.png",0,100)
 Game.SetCollisionBox(GameObjects[1],32,64)
