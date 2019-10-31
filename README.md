@@ -7,6 +7,7 @@ Allows to create branching dialogues and program all logic using Lua script.
 *   Create dialogues and its possible answers and outcomes in lua file.
 
 ## Dialogue Script example
+
 ```lua
 dialogueTree = 
 {
@@ -31,7 +32,8 @@ dialogueTree =
 				  answerTwo = 3
 			  },
 			  [4] = {
-				  text = "Thanks! you are hero! \n1: slowly go away...",	
+				  text = "Thanks! you are hero! 
+				  \n1: slowly go away...",	
 				  answerOne = 4,
 				  answerTwo = 0
 			  }
