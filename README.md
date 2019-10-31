@@ -52,5 +52,6 @@ Game.SetCollisionBox(GameObjects[1],32,64)
 			Game.ShowDialogue(true)
 			Game.SetDialogueText("Press 'F' to talk")
 		end
+ end
 ```
 
