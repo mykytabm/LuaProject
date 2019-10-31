@@ -16,14 +16,17 @@ dialogueTree =
 				  dialogProgress=2
 			  },
 			  [2] = {
-				  text = "Hello Stranger! Can you help me?\n1:Yes.\n2:No.",
+				  text = "Hello Stranger! Can you help me?
+				  \n1:Yes.
+				  \n2:No.",
 				  answerOne = 3,
 				  answerTwo = 2
 			  },
 			  [3] = {
 				  text = "Can you please tell me whats the weather today?\nI didnt follow school course about 
-				  weather...\n1:It's sunny                       
-				  today.\n2:No!",
+				  weather...
+				  \n1:It's sunny today.
+				  \n2:No!",
 				  answerOne = 4,
 				  answerTwo = 3
 			  },
